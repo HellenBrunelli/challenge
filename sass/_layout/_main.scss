@@ -1,0 +1,6 @@
+.product-box{display: flex;flex-direction: column;justify-content: center;align-items: center;width:100%;height: 100vh;
+    &-title{width: 100%;display: flex;flex-direction: column;align-items: center;}
+    &-line{color: #ccc;width: 80%;position: relative;top: 37%;z-index: -1;}
+    &-description{margin:2%; padding:2%;font-weight: 300;text-transform: uppercase;background-color: #fff;}
+}
+
