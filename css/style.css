@@ -236,19 +236,20 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 7% 2%;
+  padding: 2% 2%;
   height: 30%;
 }
 
 .product-descriptions h4 {
   padding-bottom: 2%;
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .product-descriptions p {
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
