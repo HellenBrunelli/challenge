@@ -12,7 +12,7 @@
     <title>Challenge O Boticário</title>
 </head>
 
-<body id="body" >
+<body id="body">
     <header class="header">
         <nav class="navbar">
             <div class="navbar-itens">
@@ -22,14 +22,15 @@
                     </div>
                     <div class="logo">
                         <a class="logo" href="#">
-                            <h2>Minha Loja</h2>
+                            <img title="O boticario" src="assets/logo-boticario.png" alt="Logo de O Boticário">
                         </a>
                     </div>
                 </div>
 
-                <div class="navbar-itens-end">
+                <div title="carrinho" class="navbar-itens-end">
                     <div class="icons">
-                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-shopping-cart"></i>  
+                        <p class="cartValue"></p>
                     </div>
                 </div>
             </div>
@@ -50,13 +51,29 @@
             <h2 class="product-box-description">Últimos produtos</h2>
         </div>
         <div class="container">
+            <!-- Produtos que serão carregados da Api  -->
         </div>
     </main>
-    
+    <footer>
+        <div class="social-network">
+            <div class="social-network-icons">
+                <a title="Facebook"  href="https://www.facebook.com/oboticario"><i class="fab fa-facebook-f"></i></a>
+                <a title="Twitter" href="https://twitter.com/oboticario"><i class="fab fa-twitter"></i>
+                </a>
+                <a title="YouTube" href="https://www.youtube.com/user/boticario"><i class="fab fa-youtube"></i>
+                </a>
+                <a title="Instagram" href="https://www.instagram.com/oboticario/"><i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="Copyright">
+                Copyright © Hellen Brunelli 2019
+        </div>
+    </footer>
     <script src="script/get_data.js"></script>
     <script src="script/menuToggle.js"></script>
     <script src="script/loadProducts.js"></script>
-    <script src="script/listProducts.js"></script>
+    <script src="script/addToCart.js"></script>
 </body>
 
 </html>
