@@ -1,4 +1,4 @@
-# Challenge O boticário
+# Challenge O Boticário
 > - Os produtos são consumidos de um Json via ajax.
 > - Ao clicar no produto, o valor mesmo deve ser adicionado ao carrinho.
 
